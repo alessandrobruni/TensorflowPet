@@ -63,9 +63,9 @@ Create the venv
 These the packages at the end of the installation 
 > `pip list`  
 
-![image.png](/images/p1.jpg)
-![image.png](/images/p2.jpg)
-![image.png](/images/p3.jpg)
+<img src="images/p1.jpg"  width="500" height="550" />
+<img src="images/p2.jpg"  width="500" height="550" />
+<img src="images/p3.jpg"  width="500" height="550" />
 
 ---
 # Time to catch the images
@@ -80,10 +80,10 @@ Images to train the machine can be
 
 
 ---
-Framed image (an example)
+Framed image (an example)  
 ![images](/images/images_taked.png)
-xml (an example)
-![xmlfile](/images/tag2png.png)
+xml (an example)  
+<img src="images/tag2png.png"  width="500" height="550" />
 
 ---
 
