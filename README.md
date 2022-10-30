@@ -95,13 +95,13 @@ In my case i have 4 type of images (classes), so for each type i had to define a
 ![imagelabeled](/images/tag1png.png)
 ---
 
-# Last anf finally : Training the model
+# Last and happy to do it : TRAINING THE MODEL
 
-* Then the collected images and xml files must be divided (cut and paste) into two folders **train** and **test**. The ratio should be 80% in train , 20% in test. This can be done manually (in case of few images like here) or shuffling the images with a python script.  So now all folders and annotations should be split between the following two folders.
+* The collected images and xml files must be divided (cut and paste) into two folders **train** and **test**. The ratio should be 80% in train , 20% in test. This can be done manually (in case of few images like here) or shuffling the images with a python script.  So now all folders and annotations should be split between the following two folders.  
 `\TFODCourse\Tensorflow\workspace\images\train`  
 `\TFODCourse\Tensorflow\workspace\images\test`
 
-* Finally it is possible to begin the training process.
+* Now it is possible to begin the training process...
 This notebook  `Training and Detection.ipynb`,  walk you through installing Tensorflow Object Detection, making detections, saving and exporting the model.
 Just for prototyping **epoch time** is to 2000 (simple said the iteration of regression process) and everyry 100 epoch Tensorflow displays the loss metrics.
 
@@ -116,24 +116,31 @@ During the trainig process this is the output of the procedure.
 
 ---
 
-One trained , ideally we mus take a look at how well its performing.  
+Onece trained, ideally we mus take a look at how well its performing.  
 The kpi performance are these:  
 * **Precision**: TP/(TP+FP)  
   What proportion of my detections where correct?
 * **Recall**: TP/(TP+FN)
   What proportion of actual object did I capture?
 * **Loss**: A metod to evaluate how well the model is performing against the data provided  
-
+---
 ![performance](/images/perf.png)
 
-It is amazing how with only few images  objects the algorith did very well.
 
-Here is the **AP** (average precision) arounn 89%
+## Performace metrics
+
+It is amazing how - with only few images for each object - the algo did well.  
+
+Here is the **AP** (average precision) around 89%.
+
 
 ![precision](/images/precision.png)
 
 To be honest , when i was in front of the camera the machine recognized me as cow... and this was not too funny ...  
-no it is 😆. 
-In any case a was wearing a white shirt, and when i pull up it the sometime I was target as unicorn. 
-I do not know what is better.
-Fr suere i think trainig with more image will lead to a better precision.
+no it is 😆.   
+In any case, I was wearing a white shirt and when pulling it up sometime I was targeting as unicorn.   
+I do not know what is better. 
+
+For sure trainig with more image will lead to a better precision.  
+
+I loved all this.
