@@ -46,7 +46,7 @@ Installed *Windows Native Requires Microsoft Visual C++ Redistributable for Visu
 
 I don't have a Nvidia GPU (i have Intel) so didn't install the booster avalable for GPU.
 I sow that with GPU every 100 epoch (iteration) on model trainig takes like 40 to 50 sec. Without the GPU acceleration (me 😆 ) processing time was 8 to 10 minute!!! 
-Bud did the work, slow, but worked.
+But did the work, slow, but worked.
 
 Create the venv
 * installed **miniconda** (or what you want)
